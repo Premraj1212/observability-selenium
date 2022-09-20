@@ -47,7 +47,7 @@ Refer [start-grid-distributed.sh](/start-grid-distributed.sh) if you want to sta
 ![Grid status](/images/selenium_grid_status.jpg)
 
 ## Execute your tests
-Point your tests as in [DistributedTracingExamples](src/test/java/com/thoughtworks/tracing/DistributedTracingExamples.java) Class and navigate to http://localhost:16686/ to view the outputs.
+Point your tests as in [DistributedTracingExamples](src/test/java/com/vin/tests/GridTest.java) Class and navigate to http://localhost:16686/ to view the outputs.
 
 Under services look up for Selenium-router and notices actions for each calls made by your tests. An example below
 
