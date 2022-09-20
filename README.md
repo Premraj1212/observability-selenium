@@ -16,7 +16,7 @@ Steps to start tracing your tests,
 
 Start Jaeger via docker(as its easy)
 
-Instrument your Selenium Grid start-up command with Jaeger tracing as in start-grid-distributed.sh and start-grid-standalone.sh for standalone mode.
+Instrument your Selenium Grid start-up command with Jaeger tracing as in start-grid-distributed.sh distributed mode.
 
 Now execute your tests, and navigate to http://localhost:16686/ to view the outputs.
 
