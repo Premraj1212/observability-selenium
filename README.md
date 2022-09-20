@@ -40,7 +40,7 @@ You can then navigate to http://localhost:16686 to access the Jaeger UI.
 ## Instrument your Selenium Grid command
 We're going to add support for Open Telemetry API's(one of the many ways to do distributed tracing) using [Coursier](https://get-coursier.io/docs/overview) to generate a full classpath, when started this way the selenium server will inform you that it has found a tracer on stdout.
 
-Refer [start-grid-distributed.sh](/start-tracing-distributed.sh) if you want to start Grid in distributed mode.
+Refer [start-grid-distributed.sh](/start-grid-distributed.sh) if you want to start Grid in distributed mode.
 
 ```curl http://localhost:4444/status``` to check if your grid deployment is ready
 
