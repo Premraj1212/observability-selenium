@@ -1,0 +1,46 @@
+##intellij idea
+.idea
+*.iws
+*.iml
+*.ipr
+
+##reports
+target/
+*.zip
+*.gz
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+##execution_output
+log/
+logs/
+.log
+target
+.html
+/target/
+
+##eclipse
+.settings
+.project
+.classpath
+
+## vs_code
+.vscode
+
+##netbeans
+/nbproject/private/
+/build/
+/nsbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+##mac os
+.DS_Store
